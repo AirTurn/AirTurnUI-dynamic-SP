@@ -8,7 +8,7 @@ let checksum = "617d7bab3eb80269f0d72bfdd31b084bb7e07a9993df32101df43f3ce8d2aaed
 
 let package = Package(
     name: "AirTurnUI",
-    platforms: [.iOS(.v10), .macOS(.v10.14)],
+    platforms: [.iOS(.v9)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -18,8 +18,8 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "AirTurnInterface",
-                         url: "https://github.com/AirTurn/AirTurnInterface-dynamic-SP",
-                         from: Version(version)
+                         url: "git@github.com:AirTurn/AirTurnInterface-dynamic-SP.git",
+                         from: Version(version)!
         )
     ],
     targets: [
