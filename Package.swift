@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "4.6.0-b.2"
-let checksum = "6f9b61c344424237d829d65d76850645336c49913ed6858f1e2f5b820c566a10"
+let version = "4.6.0"
+let checksum = "aa672f2878f3f49b8fce7b59526fb8873dfd219d7cc27545d604f2d25992b453"
 
 let package = Package(
     name: "AirTurnUI",
