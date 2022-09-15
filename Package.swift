@@ -8,7 +8,7 @@ let checksum = "4be93202b0a495fd375bfbbe4aa9649ecd959bf08a91fbafcdb05f9f6b91a3c1
 
 let package = Package(
     name: "AirTurnUI",
-    platforms: [.iOS(.v9)],
+    platforms: [.iOS(.v11)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
