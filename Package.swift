@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "4.7.2"
+let version = "4.7.3"
 let checksum = "a7af94e0cb9f69508c521de918350772a5a7eefeb1eed9b00acbba602f48aa88"
 
 let package = Package(
