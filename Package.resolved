@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AirTurnInterface",
+        "repositoryURL": "https://github.com/AirTurn/AirTurnInterface-dynamic-SP.git",
+        "state": {
+          "branch": null,
+          "revision": "46592a306b23b2c6cfdb7e585c0e4c868137960d",
+          "version": "4.10.0-b.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
